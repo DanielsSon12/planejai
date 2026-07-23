@@ -6,10 +6,17 @@
 @import './styles/theme.css';
 
 @layer base {
-    body {
-        @apply bg-background text-foreground;
-        width: 100%;
-        height: 100%;
-        transition: background-color 0.3s ease, color 0.3s ease;
-    }
+  body {
+    @apply bg-background text-foreground;
+    width: 100%;
+    height: 100%;
+    transition:
+      background-color 0.3s ease,
+      color 0.3s ease;
+  }
+}
+
+/* Todo icone lucide tem essa classe implementada padrão */
+.lucide {
+  stroke-width: 1.5;
 }
