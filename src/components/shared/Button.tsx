@@ -4,7 +4,7 @@ import type { ButtonHTMLAttributes } from 'react'
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant: 'primary' | 'secondary' | 'ghost'
   icon?: LucideIcon
-// O LucideIcon é uma biblioteca de icones que temos no react, podemos instalar ela a partir de npm add install lucide-react
+  // O LucideIcon é uma biblioteca de icones que temos no react, podemos instalar ela a partir de npm add install lucide-react
 }
 
 // Estilos compartilhados por todas as variantes de botão.

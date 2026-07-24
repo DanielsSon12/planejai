@@ -1,6 +1,6 @@
 /* O @layer é uma funcionalidade do Tailwind CSS que organiza os estilos em camadas. */
 @layer base {
-/* :root representa o elemento raiz do HTML. */
+  /* :root representa o elemento raiz do HTML. */
   :root,
 /* Basicamente qualquer elemento HTML que tenha "light" ou "dark" vai ter as propriedades de cada data-theme */
   [data-theme='light'] {
@@ -35,9 +35,9 @@
 }
 
 @theme {
-    /* São classes css criadas para usarmos no nosso HTML no modelo do tailwind */
-    /* Os temas que estamos citando agora no @theme tem que estar necessariamente nos temas que definimos acima */
-    /* Podemos ver todas esses estilos customizaveis na documentação do tailwind, no link:
+  /* São classes css criadas para usarmos no nosso HTML no modelo do tailwind */
+  /* Os temas que estamos citando agora no @theme tem que estar necessariamente nos temas que definimos acima */
+  /* Podemos ver todas esses estilos customizaveis na documentação do tailwind, no link:
     https://tailwindcss.com/docs/adding-custom-styles */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
